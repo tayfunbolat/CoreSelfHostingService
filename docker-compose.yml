@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  clientapi:
+    image: ${DOCKER_REGISTRY-}clientapi
+    build:
+      context: .
+      dockerfile: ClientApi/Dockerfile
+
+  selfhosting.api:
+    image: ${DOCKER_REGISTRY-}selfhostingapi
+    build:
+      context: .
+      dockerfile: SelfHosting.API/Dockerfile
+

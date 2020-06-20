@@ -1,0 +1,39 @@
+services:
+  clientapi:
+    build:
+      context: C:\Users\tayfun.bolat\source\repos\SelfHostingManagement
+      dockerfile: ClientApi/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ClientApi
+      target: base
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44346'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: clientapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp3.1/ClientApi.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 63420
+      target: 80
+    - published: 44346
+      target: 443
+    tty: true
+    volumes:
+    - C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\ClientApi:/app:rw
+    - C:\Users\tayfun.bolat\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\tayfun.bolat\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\tayfun.bolat\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - C:\Users\tayfun.bolat\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\tayfun.bolat\source\repos\SelfHostingManagement:/src:rw
+version: '3.4'

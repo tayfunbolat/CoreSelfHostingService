@@ -1,0 +1,8 @@
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\SelfHosting.Common\bin\Debug\netcoreapp3.1\SelfHosting.Common.deps.json
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\SelfHosting.Common\bin\Debug\netcoreapp3.1\SelfHosting.Common.dll
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\SelfHosting.Common\bin\Debug\netcoreapp3.1\SelfHosting.Common.pdb
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\SelfHosting.Common\obj\Debug\netcoreapp3.1\SelfHosting.Common.AssemblyInfoInputs.cache
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\SelfHosting.Common\obj\Debug\netcoreapp3.1\SelfHosting.Common.AssemblyInfo.cs
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\SelfHosting.Common\obj\Debug\netcoreapp3.1\SelfHosting.Common.dll
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\SelfHosting.Common\obj\Debug\netcoreapp3.1\SelfHosting.Common.pdb
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\SelfHosting.Common\obj\Debug\netcoreapp3.1\SelfHosting.Common.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\bin\Debug\netcoreapp3.1\EmailSendJob.deps.json
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\bin\Debug\netcoreapp3.1\EmailSendJob.dll
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\bin\Debug\netcoreapp3.1\SelfHosting.Common.dll
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\bin\Debug\netcoreapp3.1\SelfHosting.Common.pdb
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\obj\Debug\netcoreapp3.1\EmailSendJob.csprojAssemblyReference.cache
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\obj\Debug\netcoreapp3.1\EmailSendJob.AssemblyInfoInputs.cache
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\obj\Debug\netcoreapp3.1\EmailSendJob.AssemblyInfo.cs
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\obj\Debug\netcoreapp3.1\EmailSendJob.csproj.CopyComplete
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\bin\Debug\netcoreapp3.1\EmailSendJob.pdb
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\obj\Debug\netcoreapp3.1\EmailSendJob.dll
+C:\Users\tayfun.bolat\source\repos\SelfHostingManagement\EmailSendJob\obj\Debug\netcoreapp3.1\EmailSendJob.pdb

@@ -1,0 +1,19 @@
+services:
+  clientapi:
+    build:
+      context: C:\Users\tayfun.bolat\source\repos\SelfHostingManagement
+      dockerfile: ClientApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44346'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: clientapi
+    ports:
+    - published: 63420
+      target: 80
+    - published: 44346
+      target: 443
+    volumes:
+    - C:\Users\tayfun.bolat\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\tayfun.bolat\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
